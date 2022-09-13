@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5BDF3828D0FA1A004426C3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5BDF3728D0FA1A004426C3 /* RegisterViewController.swift */; };
 		AF99196128D07474000F5E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99196028D07474000F5E14 /* AppDelegate.swift */; };
 		AF99196328D07474000F5E14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99196228D07474000F5E14 /* SceneDelegate.swift */; };
 		AF99196528D07474000F5E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF99196428D07474000F5E14 /* ViewController.swift */; };
 		AF99196828D07474000F5E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF99196628D07474000F5E14 /* Main.storyboard */; };
 		AF99196A28D07476000F5E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF99196928D07476000F5E14 /* Assets.xcassets */; };
 		AF99196D28D07476000F5E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF99196B28D07476000F5E14 /* LaunchScreen.storyboard */; };
+		AFA9FC3F28D109B9005CA924 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9FC3E28D109B9005CA924 /* LoginViewController.swift */; };
+		AFA9FC4628D118F2005CA924 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9FC4528D118F2005CA924 /* ValidationManager.swift */; };
+		AFA9FC4828D119F2005CA924 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9FC4728D119F2005CA924 /* AlertManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF5BDF3728D0FA1A004426C3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AF99195D28D07474000F5E14 /* Car4Future Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car4Future Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF99196028D07474000F5E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF99196228D07474000F5E14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		AF99196928D07476000F5E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF99196C28D07476000F5E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF99196E28D07476000F5E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA9FC3E28D109B9005CA924 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFA9FC4528D118F2005CA924 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		AFA9FC4728D119F2005CA924 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				AF99196028D07474000F5E14 /* AppDelegate.swift */,
 				AF99196228D07474000F5E14 /* SceneDelegate.swift */,
 				AF99196428D07474000F5E14 /* ViewController.swift */,
+				AFA9FC3E28D109B9005CA924 /* LoginViewController.swift */,
 				AF99196628D07474000F5E14 /* Main.storyboard */,
+				AF5BDF3728D0FA1A004426C3 /* RegisterViewController.swift */,
 				AF99196928D07476000F5E14 /* Assets.xcassets */,
 				AF99196B28D07476000F5E14 /* LaunchScreen.storyboard */,
 				AF99196E28D07476000F5E14 /* Info.plist */,
+				AFA9FC4528D118F2005CA924 /* ValidationManager.swift */,
+				AFA9FC4728D119F2005CA924 /* AlertManager.swift */,
 			);
 			path = "Car4Future Task";
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA9FC4628D118F2005CA924 /* ValidationManager.swift in Sources */,
 				AF99196528D07474000F5E14 /* ViewController.swift in Sources */,
 				AF99196128D07474000F5E14 /* AppDelegate.swift in Sources */,
 				AF99196328D07474000F5E14 /* SceneDelegate.swift in Sources */,
+				AFA9FC3F28D109B9005CA924 /* LoginViewController.swift in Sources */,
+				AF5BDF3828D0FA1A004426C3 /* RegisterViewController.swift in Sources */,
+				AFA9FC4828D119F2005CA924 /* AlertManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
